@@ -1,0 +1,9 @@
+.options__btn {
+  width: 100px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.options__btn:not(:last-child) {
+  margin-right: 15px;
+}

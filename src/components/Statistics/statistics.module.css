@@ -1,0 +1,7 @@
+.stat__list {
+  list-style: none;
+}
+
+.stat__item:not(:last-child) {
+  margin-bottom: 10px;
+}

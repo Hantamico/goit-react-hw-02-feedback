@@ -1,11 +1,13 @@
 import React from "react";
 import PropTypes from 'prop-types';
 
+import css from "./feedback_options.module.css"
+
 export default function FeedbackOptions({ options, handleFeedback }) {
     return (
         <div>
             {options.map((option) => 
-                 <button key={option} name={option} onClick={handleFeedback}>{option}</button>
+                 <button className={css.options__btn} key={option} name={option} onClick={handleFeedback}>{option}</button>
             )}
         </div>
     );
